@@ -1,9 +1,11 @@
 # museo-shrek
 
 ### Introducción:
-El museo de shrek es una página realizada con HTML, css y reactJS, dedicada a la presentación de personajes de la famosa serie.
+El museo de shrek es una webapp realizada con HTML, CSS, reactJS y su API en expressJS dedicada a la presentación de personajes de la famosa serie.
 
 Realizado por:
-- Franco Oderís
+- Mateo Ferreyra
+- Franco Oderiz
 - García Micael
-- ehhh
+- Mauro Paul
+- Agustín Ulloa
