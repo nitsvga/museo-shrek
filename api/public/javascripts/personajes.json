@@ -1,0 +1,98 @@
+  let personajes= [
+    {
+        id: 1,
+        nombre : "Shrek",
+        foto :  "http://www.cromosomax.com/pics/2016/04/transfobia-shrek.jpg",
+        galeria: ["https://pbs.twimg.com/profile_images/677274733872836608/fucYXbJe.jpg","https://i1.sndcdn.com/artworks-000191622121-cbw3vl-t500x500.jpg","https://cdn.wallpapersafari.com/6/56/GZwKdh.jpg"]
+    },
+    {
+        id: 2,
+        nombre : "Fiona",
+        foto :  "http://purepng.com/public/uploads/large/purepng.com-shrek-fionashrekcomputer-animatedfantasy-filmfairy-talebook-1701528653973ku2li.png",
+        galeria:["https://www.meme-arsenal.com/memes/4b29e97d9e53ca18cc43dfb03150b698.jpg","https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/princess-fiona-shrek-forever-after-46.6.jpg","https://i.pinimg.com/736x/d0/b9/2e/d0b92e140faf13343b4278c18fa6a122.jpg"]
+    },
+    {
+        id: 3,
+        nombre : "Burro",
+        foto :  "https://pbs.twimg.com/media/D5GuJnGWsAAdzaM.jpg",
+        galeria:["https://www.bellacollezione.com/image/catalog/products/acessorios/mascara-adulto-do-shrek-burro.jpg","http://images5.fanpop.com/image/photos/30100000/Donkey-shrek-30165007-374-350.jpg","https://www.clipartkey.com/mpngs/m/87-873787_shrek-head-png-donkey-shrek.png"]
+    },
+    {
+        id: 4,
+        nombre : "Lord Farquaad",
+        foto :  "https://www.throwbacks.com/content/images/2018/05/latest-cb-20170318161719.jpg",
+        galeria:["https://upload.wikimedia.org/wikipedia/en/thumb/9/91/LordFarquaad(ShrekCharacter).png/150px-LordFarquaad(ShrekCharacter).png","https://live.staticflickr.com/4407/36414287936_dcc978c96e_b.jpg","https://www.thebackstagebeat.com/wp-content/uploads/2015/07/farquaad.png"]
+    },
+    {
+        id: 5,
+        nombre :"Principe Encantador",
+        foto :  "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/prince-charming-shrek-the-third-97.1.jpg",
+        galeria:["http://elnoti.com/wp-content/uploads/2017/05/encanta.jpg","https://lh6.googleusercontent.com/-uWGF-kUqfk4/TYJrSbQiBVI/AAAAAAAABDo/A25uhSPLoJk/s1600/28f11e2ac23c486b5da33fcd945c1.jpg","https://vignette.wikia.nocookie.net/scratchpad/images/e/e4/PrinceCharming-Shrek.png/revision/latest?cb=20130530114758"]
+    },
+    {
+        id: 6,
+        nombre : "Gato con Botas",
+        foto :  "https://images2-mega.mdstrm.com/candela/2017/03/09/2377_7_58c1d0a5a5ff7.jpg",
+        galeria:["http://2.bp.blogspot.com/_jgkZZTrtJHI/S851DPoFLXI/AAAAAAAACdM/waCJB91Ga3w/w1200-h630-p-k-no-nu/gato.jpg","https://mlstaticquic-a.akamaihd.net/el-gato-con-botas-de-shrek-mc-donald-juguete-ninos-D_NQ_NP_116011-MLU20461287369_102015-F.jpg","http://todofondos.com/bin/fondos/05/35/90d.jpg"]
+    },
+    {
+        id: 7,
+        nombre : "Jengi",
+        foto :  "http://i1.ytimg.com/vi/1XiAzJ2n1G8/hqdefault.jpg",
+        galeria:["https://www.guiadelocio.com/var/guiadelocio.com/storage/images/a-fondo/los-10-secundarios-animados-mas-carismaticos/jengi-el-hombre-de-jengibre-saga-shrek-2001-2010/25033849-1-esl-ES/jengi-el-hombre-de-jengibre-saga-shrek-2001-2010.jpg","https://http2.mlstatic.com/galleta-de-jengibre-plush-original-shrek-mide-38-cms-D_NQ_NP_916710-MLC28380630107_102018-F.jpg","https://i.ytimg.com/vi/j1_0WgAbe_o/maxresdefault.jpg"]
+    },
+    {
+        id: 8,
+        nombre : "Pinocho",
+        foto :  "https://img.favpng.com/22/12/11/shrek-the-musical-pinocchio-image-animation-png-favpng-sCY1aH6ZZXyWpbFUwRpNfDnjk.jpg",
+        galeria:["https://www.clipartkey.com/mpngs/m/318-3183892_pinocchio-shrek-png.png","https://cdn.onebauer.media/one/lifestyle-images/entertainment/576961d3595ddf9f60720d79/Pinnochio-now.jpg?format=jpg&quality=80&width=440&ratio=1-1&resize=aspectfit","https://i.ebayimg.com/images/g/76cAAOSwjQRfpv4m/s-l400.jpg"]
+    },
+    {
+        id: 9,
+        nombre : "Dragona",
+        foto :  "http://memberfiles.freewebs.com/35/41/40764135/photos/dragon-girl/dragon4.jpg",
+        galeria:["https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/dragon-shrek-forever-after-5.2.jpg","https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6b97d98f-6d52-4e90-84a2-715eb11a8e65/dd2pt56-cff04010-1b87-4a45-9ecf-f3f371c0f03a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmI5N2Q5OGYtNmQ1Mi00ZTkwLTg0YTItNzE1ZWIxMWE4ZTY1XC9kZDJwdDU2LWNmZjA0MDEwLTFiODctNGE0NS05ZWNmLWYzZjM3MWMwZjAzYS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.VJR0VKOqdBwlJBfhU6hwwRBhQmC8VSYn2EaLKHQPvnc","https://i.pinimg.com/originals/02/db/a3/02dba3e09295891ee5df76e19ebe7299.jpg"]
+    },
+    {
+        id: 10,
+        nombre : "Rumpelstiltskin",
+        foto :  "https://64.media.tumblr.com/974b6152554accaa18df466777b958fa/dddc20199426e078-4a/s250x400/df4ce3b88b1b9c0482be407e26dfb00dec478cc9.png",
+        galeria:["https://64.media.tumblr.com/678b9d3a76fd30198b42eb6aa650ea37/110077bb6fd9af31-45/s500x750/91631f5d3c5e0cde04958ef041a0fea64ba6e67a.jpg","https://media.npr.org/assets/artslife/movies/2010/05/shrek/rumpelstiltskin_wide-8c698aabe8ee2688b8ea644d9dac9f36a2c1a4be.jpg?s=1400","https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/rumplestiltskin-shrek-forever-after-the-video-game-6.97.jpg"]
+    },
+    {
+        id: 11,
+        nombre : "Geppetto",
+        foto : "https://i.pinimg.com/736x/78/73/7e/78737eb2a740520da4b86093b0a07095--shrek-pinocchio.jpg",
+        galeria:["https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/geppetto-shrek-forever-after-2.62.jpg","https://vignette.wikia.nocookie.net/aveleyman/images/1/1d/Chris_Miller_as_Geppetto_(Voice)_(S).jpg/revision/latest/scale-to-width-down/130?cb=20181129033004","http://images3.wikia.nocookie.net/__cb20110711153411/shrek/images/8/81/Geppetto.JPG"]
+    },
+    {
+        id: 12,
+        nombre : "Ogritos Trillizos",
+        foto : "https://vignette.wikia.nocookie.net/shrek/images/f/fb/Shrek_Baby_Ogres_Triplets.png/revision/latest?cb=20200324201730&path-prefix=es",
+        galeria:["https://statics.viralizalo.com/virs/2016/01/VIR_43912_4105_cuanto_recuerdas_de_shrek.jpg?cb=82470","https://i.pinimg.com/originals/8e/ed/ab/8eedabac265ce389848e95dc0d535d67.jpg","http://3.bp.blogspot.com/_8b_LF4sFgp0/TB1W-4K0KjI/AAAAAAAAAJc/5ASyYldc1OE/s1600/colecho-shrek.jpg"]
+    },
+    {
+        id: 13,
+        nombre : "Doris",
+        foto : "https://vignette.wikia.nocookie.net/p__/images/d/dc/Doris_the_ugly_stepsister.jpg/revision/latest?cb=20180823201647&path-prefix=protagonist",
+        galeria:["http://img2.wikia.nocookie.net/__cb20100523065002/shrek/images/f/fe/Doris.jpg","https://img2.looper.com/img/gallery/the-shrek-character-you-never-realized-larry-king-played/larry-king-was-effortlessly-hilarious-as-doris-in-the-shrek-movies-1611429534.jpg","https://i.pinimg.com/736x/27/97/9f/27979fa5e3d3722a905ab7978521f9fc--shrek.jpg"]
+    },
+    {
+        id: 14,
+        nombre : "El niño Gruñeme",
+        foto : "http://vignette4.wikia.nocookie.net/shrek/images/2/22/41792_124597077585494_6135_n.jpg/revision/latest?cb=20130707062833&path-prefix=es",
+        galeria:["https://i.pinimg.com/originals/01/26/a1/0126a19662e6ce6af08e8a1f6f070d85.jpg","http://i1.ytimg.com/vi/tB7eRjg34EI/hqdefault.jpg","https://i.ytimg.com/vi/YbLPH-TJ1b0/maxresdefault.jpg"]
+    },
+    {
+        id: 15,
+        nombre : "El Rey Harold",
+        foto : "https://vignette.wikia.nocookie.net/doblaje/images/3/30/SHK2ReyHarold.png/revision/latest/zoom-crop/width/240/height/240?cb=20160407001104&path-prefix=es",
+        galeria:["http://cdn.playbuzz.com/cdn/1f269e8f-6a1d-4d05-a354-79974a4dc9c9/50d462df-708c-4f95-804b-fb21b8c66b41.jpg","https://4.bp.blogspot.com/_uMyDFmTxImA/RvGEhhB-21I/AAAAAAAAAK4/3An_FvBcPOc/s320/jose-shrek2.JPG","http://lagranilusion.cinesrenoir.com/wp-content/uploads/2013/02/shrek.jpg"]
+    },
+    {
+        id: 16,
+        nombre : "Humpty Dumpty",
+        foto : "http://img3.wikia.nocookie.net/__cb20111130083330/shrek/images/5/56/Humpty_Dumpty.png",
+        galeria:["https://2.bp.blogspot.com/-0czmkV85zgw/XIb1mJB3aII/AAAAAAAABLQ/iPOYKSgUCasPaysLvQOdSnWb5dxOGZfeACPcBGAYYCw/s1600/humpty%2Bdumpty4.png","https://i.pinimg.com/736x/d8/38/f1/d838f1f5017738552108b3c7efc6e315--humpty-dumpty-shrek.jpg","https://vignette1.wikia.nocookie.net/shrek/images/d/d4/2274685911.jpg/revision/latest/scale-to-width-down/185?cb=20170623201514"]
+    }
+    ]
